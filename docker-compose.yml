@@ -7,7 +7,7 @@ services:
     image: mysql:8.0
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root@8507
+      MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
     volumes:
